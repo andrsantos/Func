@@ -1,7 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
+int cubo (int);
+int main()
 
-int main(int argc, char **argv)
 {
-	printf("hello world\n");
-	return 0;
+  int a = 3;
+  int resultado;
+  resultado = cubo(a);
+  
+  return 0;
+}
+int cubo(int x)
+{
+    return x*x*x;
 }
